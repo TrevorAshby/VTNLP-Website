@@ -15,7 +15,13 @@
                     "Title":"MultiInstruct: Improving Multi-Modal Zero-Shot Learning via Instruction Tuning.",
                     "Conference":"ACL'23.",
                     "Awards":"Outstanding Paper Award",
-                    "ProjectPage": "https://github.com/VT-NLP/MultiInstruct"}
+                    "ProjectPage": "https://github.com/VT-NLP/MultiInstruct"},
+                    {"Authors":"Minqian Liu, Lifu Huang",
+                    "Link":"",
+                    "Title":"Teamwork Is Not Always Good: An Empirical Study of Classifier Drift in Class-incremental Information Extraction.",
+                    "Conference":"ACL'23.",
+                    "Awards":"",
+                    "ProjectPage":"https://github.com/VT-NLP/ICE"}
                 ]},
         "2022":{"papers":[
                     {"Authors":"Minqian Liu, Shiyu Chang, Lifu Huang",
