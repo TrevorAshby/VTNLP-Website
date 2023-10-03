@@ -1,0 +1,36 @@
+{
+    "data":{
+        "Sections":["Preprint", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015 and Before"],
+        "Preprint":{"papers":[
+            {"Authors":"",
+            "Link":"",
+            "Title":"",
+            "Conference":"",
+            "Awards":"",
+            "ProjectPage":""}
+        ]},
+        "2023":{"papers":[
+                    {"Authors":"Zhiyang Xu*, Ying Shen*, Lifu Huang",
+                    "Link":"https://arxiv.org/pdf/2212.10773.pdf",
+                    "Title":"MultiInstruct: Improving Multi-Modal Zero-Shot Learning via Instruction Tuning.",
+                    "Conference":"ACL'23.",
+                    "Awards":"Outstanding Paper Award",
+                    "ProjectPage": "https://github.com/VT-NLP/MultiInstruct"}
+                ]},
+        "2022":{"papers":[
+                    {"Authors":"Minqian Liu, Shiyu Chang, Lifu Huang",
+                    "Link":"https://arxiv.org/pdf/2204.07275.pdf",
+                    "Title":"Incremental Prompting: Episodic Memory Prompt for Lifelong Event Detection.",
+                    "Conference":"COLING'2022.",
+                    "Awards":"",
+                    "ProjectPage":"https://github.com/VT-NLP/Incremental_Prompting"}
+                ]},
+        "2021":{},
+        "2020":{},
+        "2019":{},
+        "2018":{},
+        "2017":{},
+        "2016":{},
+        "2015 and Before":{}
+    }
+}
