@@ -1,0 +1,5 @@
+Get rid of 'About' page
+
+Add a software page with downloads and links to "finished projects"
+    - citation and link, to either page, manual, etc.
+Add a projects page highlighting each project going on
