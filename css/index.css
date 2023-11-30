@@ -71,6 +71,33 @@ body {
     width: fit-content;
 }
 
+.group_div {
+    margin-left: 17%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+}
+
+.pers_div {
+    background-color: rgb(234, 234, 234);
+    padding: 15px;
+    border-radius: 15px;
+    width:fit-content;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/* .pers_div:hover {
+    box-shadow: 4px 4px rgb(196, 195, 195);
+} */
+
+.p_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+
 .article_title {
     color:darkred;
     font-weight: bold;
@@ -82,12 +109,16 @@ body {
 
 .article_authors{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .article_conference {
     margin: 0;
     font-weight: bold;
     margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /* ^^^^^^^^^^^ PUBLICATION ^^^^^^^^^ */

@@ -5,7 +5,7 @@ readTextFile("../json/publications.json", function(text){
     //console.log(data.data["0"].img_path)
 
     var pub_div = document.getElementById("pub_div");
-    var arr = data.data["Sections"]
+    var arr = data.data["Sections"];
     for (year in arr) {
         var year_head = document.createElement("h2");
         year_head.className = "pub_sec";
