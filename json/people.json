@@ -1,6 +1,6 @@
 {
     "data":{
-        "Sections":["Advisor", "PhD", "MS"],
+        "Sections":["Advisor", "PhD", "MS", "Alumni"],
         "Advisor": {
             "people":[
                 {"name":"Lifu Huang",
@@ -16,7 +16,7 @@
 
         "PhD":{
             "people":[
-                {"name":"",
+                {"name":"Mohammad Beigi",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -26,7 +26,7 @@
                 "twitter":"",
                 "img_path":""},
 
-                {"name":"",
+                {"name":"Mian Zhang",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -36,7 +36,7 @@
                 "twitter":"",
                 "img_path":""},
 
-                {"name":"",
+                {"name":"Zihao Lin",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -46,7 +46,7 @@
                 "twitter":"",
                 "img_path":""},
                 
-                {"name":"",
+                {"name":"Menglong (Barry) Yao",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -56,7 +56,7 @@
                 "twitter":"",
                 "img_path":""},
                 
-                {"name":"",
+                {"name":"Jingyuan Qi",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -66,7 +66,7 @@
                 "twitter":"",
                 "img_path":""},
                 
-                {"name":"",
+                {"name":"Indrajeet Kumar Mishra",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -76,7 +76,7 @@
                 "twitter":"",
                 "img_path":""},
                 
-                {"name":"",
+                {"name":"Ying Shen",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -86,7 +86,7 @@
                 "twitter":"",
                 "img_path":""},
                 
-                {"name":"",
+                {"name":"Minqian Liu",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -96,7 +96,7 @@
                 "twitter":"",
                 "img_path":""},
                 
-                {"name":"",
+                {"name":"Sijia Wang",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -123,10 +123,10 @@
                 "program":"Master's Student",
                 "start_year":"Fall 2023",
                 "website":"",
-                "github":"github.com/trevorashby",
-                "linkedin":"",
+                "github":"https://www.github.com/trevorashby",
+                "linkedin":"https://www.linkedin.com/in/trevorashby/",
                 "orcid":"0000-0001-8712-5233",
-                "twitter":"",
+                "twitter":"https://twitter.com/_trevawhateva_",
                 "img_path":"Trevor-Ashby.jpg"},
 
                 {"name":"Hanwen (Zoe) Zheng",
@@ -139,7 +139,7 @@
                 "twitter":"",
                 "img_path":"Zoe-Zheng.jpg"},
 
-                {"name":"",
+                {"name":"Tong Zhou",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -151,9 +151,9 @@
             ]
         },
 
-        "alumni": {
+        "Alumni": {
             "people":[
-                {"name":"",
+                {"name":"Xiaochu Li",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -164,7 +164,7 @@
                 "img_path":"",
                 "company":""},
                 
-                {"name":"",
+                {"name":"Sai Gurrapu",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -175,7 +175,7 @@
                 "img_path":"",
                 "company":""},
                 
-                {"name":"",
+                {"name":"Pei Wang",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -186,7 +186,7 @@
                 "img_path":"",
                 "company":""},
                 
-                {"name":"",
+                {"name":"Zaid Al Nouman",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -197,7 +197,7 @@
                 "img_path":"",
                 "company":""},
                 
-                {"name":"",
+                {"name":"Zijian Jin",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -208,7 +208,7 @@
                 "img_path":"",
                 "company":""},
                 
-                {"name":"",
+                {"name":"Moksh Shukla",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -219,7 +219,7 @@
                 "img_path":"",
                 "company":""},
                 
-                {"name":"",
+                {"name":"Sidhant Chandak",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -230,7 +230,7 @@
                 "img_path":"",
                 "company":""},
                 
-                {"name":"",
+                {"name":"Barry Menglong Yao",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -241,7 +241,7 @@
                 "img_path":"",
                 "company":""},
                 
-                {"name":"",
+                {"name":"Mingchen Li",
                 "program":"",
                 "start_year":"",
                 "website":"",
@@ -252,7 +252,7 @@
                 "img_path":"",
                 "company":""},
                 
-                {"name":"",
+                {"name":"Pritika Ramu",
                 "program":"",
                 "start_year":"",
                 "website":"",
