@@ -1,5 +1,10 @@
 body {
     margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    line-height: 25px;
 }
 
 #navbar {
@@ -7,15 +12,18 @@ body {
     grid-template-columns: auto auto auto auto auto;
     background-color: darkred;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 10%;
     min-width: 700px;
+    /* position: absolute; */
+    width: 90%;
 }
 
 #navbar a {
     color: white;
     text-decoration: none;
 }
+
 
 #logo {
     margin: 0;
@@ -45,6 +53,13 @@ body {
     margin: 15px;
 }
 
+.nav_link:hover {
+    border:2px solid rgb(255, 162, 150);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
 .active {
     border:2px solid rgb(255, 124, 42);
     border-top: none;
@@ -53,6 +68,99 @@ body {
 }
 
 /* ^^^^^^^^^^^^^ NAVBAR ^^^^^^^^^^^^^ */
+#banner_div {
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+}
+
+#lifu_container {
+    display: grid;
+    grid-template-columns: 35% 60%;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    min-width: 800px;
+}
+
+.inline_link:hover {
+    text-decoration: underline;
+}
+
+.inline_link {
+    text-decoration: none;
+    display: inline;
+    clear: none;
+    color: rgb(202, 91, 0);
+}
+
+#lifu_main {
+    width: 250px;
+    margin: auto;
+}
+
+#peop_div2 {
+    width: fit-content;
+    margin: auto;
+    /* margin-right: 20px; */
+}
+
+.p_name2 {
+    margin-top: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.email_text {
+    margin-top: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+#lifu_text {
+    display: inline;
+}
+
+#outreach_text {
+    margin: auto;
+    margin-top: 30px;
+    color: rgb(202, 91, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+#nlp_lab_container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#news_and_highlights_containe {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#teaching_container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#service_container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.banner_img {
+    margin-top: -550px;
+}
+
 #eq_cont {
     margin-left: 15%;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,6 +172,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     width: 70%;
     margin: auto;
+}
+
+.pub_hr{
+    width: 70%;
+}
+
+#peop_div {
+    padding-top: 100px;
 }
 
 .year_div {
@@ -83,9 +199,10 @@ body {
     background-color: rgb(234, 234, 234);
     padding: 15px;
     border-radius: 15px;
-    width:fit-content;
+    width: 200px;
     margin-top: 12px;
     margin-bottom: 12px;
+    height: fit-content;
 }
 
 /* .pers_div:hover {
@@ -105,6 +222,13 @@ body {
     font-size: 15px;
 }
 
+.r_area {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -5px;
+    /* font-style: italic; */
+    font-size: 15px;
+}
+
 .p_img {
     width: 200px;
     height: 200px;
@@ -114,17 +238,18 @@ body {
 .l_div {
     grid-template-columns: repeat(auto-fill, 80px);
     height: 36px;
-    margin: auto;
-    display:flex; 
+    /* margin: auto; */
+    /* display:flex;  */
     flex-direction: row; 
-    align-items: center
+    align-items: center;
+    width: fit-content;
 }
 
 .l_img {
     /* width: 35px; */
     /* height: 30px; */
     /* padding-left: 5px; */
-    padding-right: 8px;
+    padding-right: 7px;
 }
 
 .l_img:hover {
@@ -139,6 +264,10 @@ body {
     text-decoration: none;
     margin: none;
     padding: none;
+}
+
+.article_title:hover {
+    text-decoration: underline;
 }
 
 .article_authors{

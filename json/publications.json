@@ -1,6 +1,6 @@
 {
     "data":{
-        "Sections":["Preprint", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015 and Before"],
+        "Sections":["Preprint", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015 and Before"],
         "Preprint":{"papers":[
             {"Authors":"",
             "Link":"",
@@ -9,6 +9,7 @@
             "Awards":"",
             "ProjectPage":""}
         ]},
+        "2024":{},
         "2023":{"papers":[
                     {"Authors":"Zhiyang Xu*, Ying Shen*, Lifu Huang",
                     "Link":"https://arxiv.org/pdf/2212.10773.pdf",

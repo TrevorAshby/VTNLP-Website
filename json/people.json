@@ -5,13 +5,14 @@
             "people":[
                 {"name":"Lifu Huang",
                 "program":"",
-                "start_year":"",
+                "start_year":"Blacksburg, Virginia, USA",
                 "website":"",
-                "github":"",
+                "github":"https://github.com/wilburOne",
                 "linkedin":"",
                 "orcid":"",
-                "twitter":"",
-                "img_path":""}
+                "twitter":"https://twitter.com/lifu_huang",
+                "img_path":"Lifu-Huang.jpeg",
+                "google_scholar":"https://scholar.google.com.sg/citations?user=76IEGtYAAAAJ&hl=en"}
             ]},
 
         "PhD":{
@@ -121,13 +122,16 @@
             "people":[
                 {"name":"Trevor Ashby",
                 "program":"Master's Student",
-                "start_year":"Fall 2023",
+                "start_year":"Fall 2023 - Spring 2025",
                 "website":"",
                 "github":"https://www.github.com/trevorashby",
                 "linkedin":"https://www.linkedin.com/in/trevorashby/",
                 "orcid":"0000-0001-8712-5233",
                 "twitter":"https://twitter.com/_trevawhateva_",
-                "img_path":"Trevor-Ashby.jpg"},
+                "google_scholar":"https://scholar.google.com/citations?hl=en&user=jeSp_1wAAAAJ",
+                "img_path":"Trevor-Ashby.jpg",
+                "research_area":"Open-Domain Conversational AI"
+                },
 
                 {"name":"Hanwen (Zoe) Zheng",
                 "program":"",

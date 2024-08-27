@@ -28,10 +28,10 @@ readTextFile("../json/people.json", function(text){
             p_img.className = "p_img";
 
             if ((data.data[arr[group]].people[pers].img_path === "")) {
-                p_img.src = '../imgs/default.png'
+                p_img.src = '../imgs/people/default.jpg'
             }
             else {
-                p_img.src = '../imgs/'+data.data[arr[group]].people[pers].img_path
+                p_img.src = '../imgs/people/'+data.data[arr[group]].people[pers].img_path
             }
             pers_div.append(p_img);
 
@@ -54,6 +54,16 @@ readTextFile("../json/people.json", function(text){
                 pers_div.append(p_year);
             }
 
+            // RESEARCH AREA
+            var r_area = document.createElement("p");
+            r_area.className = "r_area";
+            // p_year.textContent = "(" + data.data[arr[group]].people[pers].start_year + ")";
+            r_area.textContent = data.data[arr[group]].people[pers].research_area;
+
+            if (!(data.data[arr[group]].people[pers].name === "")) {
+                pers_div.append(r_area);
+            }
+
             // LINK PANEL
             link_div = document.createElement("div");
             link_div.className = "l_div";
@@ -63,8 +73,9 @@ readTextFile("../json/people.json", function(text){
                 l_img_a.href = data.data[arr[group]].people[pers].github;
                 var l_img = document.createElement("img");
                 l_img.className = "l_img";
-                l_img.src = '../imgs/GitHub_logo.png'
-                l_img.width = "32";
+                l_img.src = '../imgs/logos/GitHub_logo.png'
+                l_img.width = "30";
+                l_img.height = "30";
                 l_img_a.append(l_img)
                 link_div.append(l_img_a);
                 pers_div.append(link_div);
@@ -75,8 +86,10 @@ readTextFile("../json/people.json", function(text){
                 l_img_a.href = data.data[arr[group]].people[pers].linkedin;
                 var l_img = document.createElement("img");
                 l_img.className = "l_img";
-                l_img.src = '../imgs/Linkedin-logo-on-transparent-Background-PNG-.png'
-                l_img.width = "36";
+                l_img.src = '../imgs/logos/Linkedin-logo-on-transparent-Background-PNG-.png'
+                l_img.width = "35";
+                l_img.height = "35";
+                l_img.style.marginBottom = "-3px";
                 l_img_a.append(l_img)
                 link_div.append(l_img_a);
                 pers_div.append(link_div);
@@ -87,8 +100,10 @@ readTextFile("../json/people.json", function(text){
                 l_img_a.href = "https://orcid.org/" + data.data[arr[group]].people[pers].orcid;
                 var l_img = document.createElement("img");
                 l_img.className = "l_img";
-                l_img.src = '../imgs/logo-ORCID-300x300.png'
-                l_img.width = "32";
+                l_img.src = '../imgs/logos/logo-ORCID-300x300.png'
+                l_img.width = "30";
+                l_img.height = "30";
+                l_img.style.marginBottom = "-1px";
                 l_img_a.append(l_img)
                 link_div.append(l_img_a);
                 pers_div.append(link_div);
@@ -99,8 +114,23 @@ readTextFile("../json/people.json", function(text){
                 l_img_a.href = data.data[arr[group]].people[pers].twitter;
                 var l_img = document.createElement("img");
                 l_img.className = "l_img";
-                l_img.src = '../imgs/twitter-x-logo.png'
+                l_img.src = '../imgs/logos/twitter-x-logo.png'
+                l_img.width = "28";
+                l_img.height = "28";
+                l_img_a.append(l_img)
+                link_div.append(l_img_a);
+                pers_div.append(link_div);
+            }
+
+            // --- google scholar
+            if (!(data.data[arr[group]].people[pers].twitter === "")) {
+                var l_img_a = document.createElement("a");
+                l_img_a.href = data.data[arr[group]].people[pers].google_scholar;
+                var l_img = document.createElement("img");
+                l_img.className = "l_img";
+                l_img.src = '../imgs/logos/google-scholar-icon.png'
                 l_img.width = "30";
+                l_img.height = "30";
                 l_img_a.append(l_img)
                 link_div.append(l_img_a);
                 pers_div.append(link_div);

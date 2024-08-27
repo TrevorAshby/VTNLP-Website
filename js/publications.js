@@ -11,6 +11,9 @@ readTextFile("../json/publications.json", function(text){
         year_head.className = "pub_sec";
         year_head.textContent = arr[year];
         pub_div.append(year_head);
+        var pub_sec_hr = document.createElement("hr");
+        pub_sec_hr.className = "pub_hr";
+        pub_div.append(pub_sec_hr);
         // pub_div.append(document.createElement('hr'))
         console.log(data.data[arr[year]].papers);
         var year_div = document.createElement("div");
