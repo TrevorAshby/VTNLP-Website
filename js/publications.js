@@ -1,4 +1,4 @@
-readTextFile("../json/publications.json", function(text){
+readTextFile("./json/publications.json", function(text){
     var data = JSON.parse(text);
     console.log(data);
     //for (var x in data)
