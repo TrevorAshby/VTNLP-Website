@@ -41,7 +41,7 @@ readTextFile("./json/people.json", function(text){
         l_img_a.href = data.data[group].people[0].github;
         var l_img = document.createElement("img");
         l_img.className = "l_img";
-        l_img.src = '../imgs/logos/GitHub_logo.png'
+        l_img.src = './imgs/logos/GitHub_logo.png'
         l_img.width = "30";
         l_img.height = "30";
         l_img_a.append(l_img)
@@ -54,7 +54,7 @@ readTextFile("./json/people.json", function(text){
         l_img_a.href = data.data[group].people[0].linkedin;
         var l_img = document.createElement("img");
         l_img.className = "l_img";
-        l_img.src = '../imgs/logos/Linkedin-logo-on-transparent-Background-PNG-.png'
+        l_img.src = './imgs/logos/Linkedin-logo-on-transparent-Background-PNG-.png'
         l_img.width = "35";
         l_img.height = "35";
         l_img.style.marginBottom = "-3px";
@@ -68,7 +68,7 @@ readTextFile("./json/people.json", function(text){
         l_img_a.href = "https://orcid.org/" + data.data[group].people[0].orcid;
         var l_img = document.createElement("img");
         l_img.className = "l_img";
-        l_img.src = '../imgs/logos/logo-ORCID-300x300.png'
+        l_img.src = './imgs/logos/logo-ORCID-300x300.png'
         l_img.width = "30";
         l_img.height = "30";
         l_img.style.marginBottom = "-1px";
@@ -82,7 +82,7 @@ readTextFile("./json/people.json", function(text){
         l_img_a.href = data.data[group].people[0].twitter;
         var l_img = document.createElement("img");
         l_img.className = "l_img";
-        l_img.src = '../imgs/logos/twitter-x-logo.png'
+        l_img.src = './imgs/logos/twitter-x-logo.png'
         l_img.width = "28";
         l_img.height = "28";
         l_img_a.append(l_img)
@@ -96,7 +96,7 @@ readTextFile("./json/people.json", function(text){
         l_img_a.href = data.data[group].people[0].google_scholar;
         var l_img = document.createElement("img");
         l_img.className = "l_img";
-        l_img.src = '../imgs/logos/google-scholar-icon.png'
+        l_img.src = './imgs/logos/google-scholar-icon.png'
         l_img.width = "30";
         l_img.height = "30";
         l_img_a.append(l_img)
