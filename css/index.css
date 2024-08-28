@@ -157,6 +157,15 @@ p {
     margin-bottom: 50px;
 }
 
+.service_group {
+    font-weight: bold;
+    font-style: italic;
+}
+
+ul {
+    line-height: 28px;
+}
+
 .banner_img {
     margin-top: -550px;
 }
@@ -285,3 +294,27 @@ p {
 }
 
 /* ^^^^^^^^^^^ PUBLICATION ^^^^^^^^^ */
+.award_div2 {
+    width: 70%;
+    margin: auto;
+}
+
+.award_title {
+    color: rgb(202, 77, 0);
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.award_awarder {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.award_div {
+    width: fit-content;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 20px;
+}

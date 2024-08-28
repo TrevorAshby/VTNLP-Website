@@ -1,0 +1,116 @@
+{
+    "data":{
+        "Sections":["Awards","Current Grants","Past Grants"],
+        "Awards": [
+            {
+                "title":"Outstanding New Assistant Professor Award",
+                "awarder":"College of Engineering, Virginia Tech, 2024"
+            },
+            {
+                "title":"NSF CAREER Award",
+                "awarder":"National Science Foundation, 2023"
+            },
+            {
+                "title":"Outstanding Area Chair Award",
+                "awarder":"The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP'2023)"
+            },
+            {
+                "title":"Outstanding Paper Award",
+                "awarder":"The 61st Annual Meeting of the Association for Computational Linguistics (ACL'2023)"
+            },
+            {
+                "title":"Best Paper Award Honorable Mention",
+                "awarder":"The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'2023)"
+            },
+            {
+                "title":"Rising Star Award",
+                "awarder":"Department of Computer Science, Virginia Tech, 2023"
+            }
+            ,
+            {
+                "title":"Third Place (Scientific Innovation Winner)",
+                "awarder":"Alexa Prize SocialBot Grand Challenge 5, 2023"
+            }
+            ,
+            {
+                "title":"Amazon Research Award",
+                "awarder":"Amazon, 2021"
+            }
+            ,
+            {
+                "title":"AI2 Fellowship",
+                "awarder":"Allen Institute for Artificial Intelligence, 2019"
+            }
+        ],
+
+        "Current Grants": [
+            {
+                "title":"NSF CAREER Project, National Science Foundation (IIS, #2238940)",
+                "awarder":"2023-Present"
+            },
+            {
+                "title":"DARPA Foundation Models for Scientific Discovery (FoundSci)",
+                "awarder":"2024-Present"
+            },
+            {
+                "title":"IARPA Rapid Explanation, Analysis and Sourcing Online (REASON)",
+                "awarder":"2024-Present"
+            },
+            {
+                "title":"NSF Secure and Trustworthy Cyberspace (SaTC, #2330940)",
+                "awarder":"2024-Present"
+            },
+            {
+                "title":"Washington Post: Enhancing Reader Experience with LLMs",
+                "awarder":"2024-Present"
+            },
+            {
+                "title":"NSF SBIR Award",
+                "awarder":"2024-Present"
+            },
+            {
+                "title":"DARPA Environment-driven Conceptual Learning (ECOLE)",
+                "awarder":"2023-Present"
+            },
+            {
+                "title":"Amazon-Virginia Tech Initiative Research Award on Open-domain Conversational AI",
+                "awarder":"2023-Present"
+            },
+            {
+                "title":"Intuit Research Award",
+                "awarder":"2022-Present"
+            },
+            {
+                "title":"Commonwealth Cyber Initiative Research Award",
+                "awarder":"2023-Present"
+            }
+        ],
+
+        "Past Grants": [
+            {
+                "title":"Amazon: Alexa Prize SocialBot Challenge",
+                "awarder":"2022-2023"
+            },
+            {
+                "title":"DARPA Knowledge Management at Scale and Speed (KMASS)",
+                "awarder":"2022-2023"
+            },
+            {
+                "title":"Amazon: Alexa Prize SimBot Challenge ",
+                "awarder":"2022-2023"
+            },
+            {
+                "title":"Meta AI Research Award",
+                "awarder":"2022-2023"
+            },
+            {
+                "title":"Google Research Award",
+                "awarder":"2022-2023"
+            },
+            {
+                "title":"US Air Force Research Lab, STTR",
+                "awarder":"2021"
+            }
+        ]
+    }
+}
